@@ -637,6 +637,7 @@ button {
 
 .modal-form .agreement-link-modal {
   color: var(--accent-blue-color);
+  text-underline-position: under;
 }
 
 .modal-form .agreement .checkbox-icon {
