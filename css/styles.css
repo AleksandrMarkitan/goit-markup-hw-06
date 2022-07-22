@@ -32,12 +32,6 @@ html {
   box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 h1,
 h2,
 h3,
@@ -192,14 +186,15 @@ button {
 
   position: absolute;
 
-  box-sizing: border-box;
   display: block;
   width: 100%;
   height: 4px;
-  bottom: -1px;
+  bottom: 0px;
 
   border-radius: 2px;
   background-color: var(--accent-blue-color);
+
+  transform: translateY(1px);
 }
 .auth-nav {
   display: flex;
